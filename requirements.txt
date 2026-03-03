@@ -1,1 +1,2 @@
 pytest
+#importante agregar pytest al requirements.txt para poder ejecutar las pruebas unitarias
