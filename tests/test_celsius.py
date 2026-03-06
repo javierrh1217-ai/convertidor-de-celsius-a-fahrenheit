@@ -2,8 +2,8 @@ import pytest
 from celsius import celsius_a_fahrenheit
 
 
-def test_conversion_normal():
-    assert celsius_a_fahrenheit(0) == 32
+def test_conversion():
+    assert convertidor(0) == 33  # valor incorrecto a propósito
 
 
 def test_conversion_limite():
